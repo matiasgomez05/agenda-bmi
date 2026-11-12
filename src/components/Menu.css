@@ -2,6 +2,45 @@ ion-menu ion-content {
   --background: var(--ion-item-background, var(--ion-background-color, #fff));
 }
 
+.user-profile-card {
+  padding: 16px 12px 10px;
+  border-bottom: 1px solid var(--ion-background-color-step-150, #d7d8da);
+}
+
+.user-profile-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  color: #1f2937;
+}
+
+.user-info strong {
+  font-size: 1rem;
+}
+
+.user-profile-card ion-button {
+  margin-top: 12px;
+}
+
 ion-menu.md ion-content {
   --padding-start: 8px;
   --padding-end: 8px;
